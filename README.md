@@ -1,64 +1,46 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<div align="center">
+ 
+# Toko HP
+![Author](https://img.shields.io/badge/Author-Ricko%20Veriyanto-blue.svg?style=for-the-badge&logo=github)
+<p>Prototype (CRUD) toko online penjualan handphone dengan Laravel 8 dan Vuejs 2</p>
+</div>
+
+## Install Setup
+
+```sh
+$ git clone https://github.com/ricko-v/toko-hp.git
+$ cd toko-hp
+$ composer update
+$ npm install
+$ copy .env.example .env
+$ php artisan key:generate
+```
+Setting konfigurasi .env, import tokohp.sql ke database. Jalankan perintah berikut
+
+```bash
+$ php artisan install
+```
+
+## Run
+
+```bash
+$ npm run dev
+$ php artisan serve
+```
+Admin Login: http://localhost:8000/admin/login
+
+## Demo Akun
+Email: ricko@gmail.com<br/>
+Password: 1912
+
+## Screenshot
 
 <p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <img alt="halaman-depan" src="https://raw.githubusercontent.com/ricko-v/toko-hp/master/screenshot/Screenshot%202022-07-31%20at%2016-52-01%20TokoHP%20Jual%20beli%20HP%20baru%20dan%20second.png"/><br/><br/>
+  <img alt="halaman-login" src="https://github.com/ricko-v/toko-hp/blob/master/screenshot/Screenshot%202022-07-31%20at%2020-50-22%20TokoHP%20Jual%20beli%20HP%20baru%20dan%20second.png"/><br/><br/>
+  <img alt="halaman-dashboard" src="https://github.com/ricko-v/toko-hp/blob/master/screenshot/Screenshot%202022-07-31%20at%2020-52-46%20TokoHP%20Jual%20beli%20HP%20baru%20dan%20second.png"/><br/><br/>
+  <img alt="halaman-dashboard-produk-baru" src="https://github.com/ricko-v/toko-hp/blob/master/screenshot/Screenshot%202022-07-31%20at%2020-53-01%20TokoHP%20Jual%20beli%20HP%20baru%20dan%20second.png"/><br/><br/>
+  <img alt="halaman-dashboard-produk-second" src="https://github.com/ricko-v/toko-hp/blob/master/screenshot/Screenshot%202022-07-31%20at%2020-53-15%20TokoHP%20Jual%20beli%20HP%20baru%20dan%20second.png?raw=true"/><br/><br/>
+    <img alt="halaman-dashboard-produk-diskon" src="https://github.com/ricko-v/toko-hp/blob/master/screenshot/Screenshot%202022-07-31%20at%2020-53-24%20TokoHP%20Jual%20beli%20HP%20baru%20dan%20second.png"/><br/><br/>
 </p>
-
-## About Laravel
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+<img alt="halaman-dashboard-produk-second" src="https://github.com/ricko-v/toko-hp/blob/master/screenshot/Screenshot%202022-07-31%20at%2020-53-34%20TokoHP%20Jual%20beli%20HP%20baru%20dan%20second.png"/><br/><br/>
